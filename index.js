@@ -29,7 +29,7 @@ app.use((req, res, next) => {
 // app.use('/api/v2', apiV2);
 
 app.use('/api/v1/student', studentRouter);
-app.use('/api/v2/student', employeeRouter);
+app.use('/api/v1/employee', employeeRouter);
 
 //https://localhost:3000/
 app.get('/', (req, res) => {
